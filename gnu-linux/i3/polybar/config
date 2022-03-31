@@ -1,0 +1,92 @@
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+[global/wm]
+margin-bottom = 0
+margin-top = 0
+
+include-file = ~/.config/i3/polybar/colors
+include-file = ~/.config/i3/polybar/modules
+include-file = ~/.config/i3/polybar/decor
+include-file = ~/.config/i3/polybar/system
+
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+[bar/main]
+monitor =
+monitor-fallback =
+monitor-strict = false
+
+override-redirect = false
+
+bottom = false
+fixed-center = true
+
+width = 100%
+height = 25
+
+offset-x = 0%
+offset-y = 0%
+
+background = ${color.background}
+foreground = ${color.foreground}
+
+radius = 10.0
+radius-top = 10.0
+radius-bottom = 10.0
+
+line-size = 2
+line-color = ${color.blue}
+
+border-size = 10
+border-color = ${color.background}
+
+padding = 0
+
+module-margin-left = 0
+module-margin-right = 0
+
+font-0 = "JetBrains Mono Medium Nerd Font Mono:style=10;4"
+font-1 = "Iosevka Nerd Font:size=10;3"
+font-2 = "Iosevka Nerd Font:size=10;4"
+font-3 = "Iosevka Nerd Font:size=10;4"
+font-4 = "Font Awesome 6 Brands,Font Awesome 6 Brands Regular:style=10;4"
+font-5 = "Noto Sans CJK JP:size=10:antialias=true;0"
+
+; modules-left = spacing dot GLD network GRD dot GLD yay GRD
+; modules-center = GLD i3 GRD
+; modules-right = GLD battery GRD dot GLD time GRD dot spacing
+
+modules-left = spacing dot network dot yay
+modules-center = i3
+modules-right = battery dot time dot spacing
+
+spacing = 0
+dim-value = 1.0
+
+tray-position = left
+tray-detached = false
+tray-maxsize = 16
+tray-background = ${color.background}
+tray-offset-x = 0
+tray-offset-y = 0
+tray-padding = 0
+tray-scale = 1.0
+
+enable-ipc = true
+
+cursor-click = 
+cursor-scroll = 
+
+[settings]
+throttle-output = 5
+throttle-output-for = 10
+
+screenchange-reload = false
+
+compositing-background = source
+compositing-foreground = over
+compositing-overline = over
+compositing-underline = over
+compositing-border = over
+
+pseudo-transparency = true
