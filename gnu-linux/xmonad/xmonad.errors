@@ -1,7 +1,0 @@
-
-xmonad.hs:69:1: warning: [-Wtabs]
-    Tab character found here, and in 28 further locations.
-    Please use spaces instead.
-   |
-69 |         -- Window Manager Specific -----------------------------------------
-   | ^^^^^^^^
