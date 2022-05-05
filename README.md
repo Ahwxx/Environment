@@ -21,7 +21,8 @@
    * PowerShell
    * Starship
 * Extra
-   * Compositor
-    * Picom
+   * Picom
+   * Dmenu
+   * Rofi
 * Wallpapers
    * Huge collection might be added soon.
