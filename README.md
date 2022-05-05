@@ -5,10 +5,11 @@
 
 * OSes
    * Arch Linux Rolling Release
+   * Gentoo Linux
 * WM's
    * DWM
    * BSPWM
-   * i3wm
+   * i3wm (or i3-gaps)
    * xmonad
 * IDE's
    * Neovim
@@ -19,5 +20,8 @@
    * ZSH
    * PowerShell
    * Starship
+* Extra
+   * Compositor
+    * Picom
 * Wallpapers
    * Huge collection might be added soon.
