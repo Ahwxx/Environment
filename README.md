@@ -13,16 +13,22 @@
    * xmonad
 * IDE's
    * Neovim
+   * Vim
    * VS Code
 * Status Bar
    * Polybar
+   * Eww
 * Shell (prompt)
    * ZSH
    * PowerShell
    * Starship
-* Extra
+   * Bash
+   * Fish
+   * Dash
+* Compositor
    * Picom
+* Launchers/menus
    * Dmenu
    * Rofi
 * Wallpapers
-   * Huge collection might be added soon.
+   * Collection added in /wallpapers
